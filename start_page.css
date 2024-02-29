@@ -1,0 +1,60 @@
+body{
+    background-color: #211D1B;
+}
+.div1 {
+    display: flex;
+    padding-left: 130px;
+    margin-top: 100px;
+    margin-left: 20px
+}
+.div2 {
+    display: flex;
+    padding-left: 150px;    
+    margin-top: 10px;
+}
+.box {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 250px;
+    height: 150px;
+    background-color: gray;
+    margin-left: 10px;
+}
+.box:hover{
+    background-color: blueviolet;
+}
+#liveClock{
+    position: absolute;
+    left:80%;
+    margin-top: 70px; 
+    font-size: 70px;
+    color: gray; 
+    
+}
+.input{
+    height: 70px; 
+    width: 1200px; 
+    background-color: #211D1B; 
+    margin-top: 70px; 
+    margin-left: 50px;
+    font-size: 70px; 
+    color: gray;  
+    border: 0;
+    border-bottom: 5px solid gray;
+    padding: 10px;
+}
+footer form :focus {
+	border-bottom: 5px solid gray;
+	outline: none;
+}
+
+.p1{
+    margin-left: 20px;
+}
+.a1{
+    text-decoration: none;color: black;
+}
+
+.row{
+    display: flex;
+}
